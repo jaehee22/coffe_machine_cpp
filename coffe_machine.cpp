@@ -91,13 +91,17 @@ void coffe_plus() {
 		cout << "입고하실 커피의 번호를 선택해주세요. (뒤로가시려면 9번을 누르세요.)" << endl;
 		cin >> choice;
 		if (choice == 9)
-			return;
+			break;
+		else if (coffe[choice] == "") {
+			cout << "해당되는 커피는 없습니다." << endl << endl;
+			continue;
+		}
 		cout << "몇개를 입고하시겠습니까?" << endl;
 		cin >> coffe_n;
 		coffe_stock[choice] += coffe_n;
 		cout << "더 입고하시겠습니까?" << endl;
 	}
-
+	return;
 }
 int main() {
 	coffe_set();		//커피 리스트를 미리 셋팅한다.
