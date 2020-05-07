@@ -1,2 +1,0 @@
-C:\Users\j8171\Desktop\studyhard\C++\coffe_machine\Debug\coffe_machine.exe
-C:\Users\j8171\Desktop\studyhard\C++\coffe_machine\Debug\coffe_machine.pdb
