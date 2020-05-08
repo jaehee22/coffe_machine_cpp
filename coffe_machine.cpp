@@ -78,6 +78,7 @@ void coffe_sales() {
 	while (coffe[i] != "") {
 		cout << coffe[i];
 		printf("	¸ÅÃâ : %d\n", coffe_s[i]);
+		total_sale += coffe_s[i];
 		i++;
 	}
 	printf("ÃÑ ¸ÅÃâ : %d\n", total_sale);
